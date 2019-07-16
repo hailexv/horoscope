@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/unsplash"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.blackmoon.horosc.Home">
+
+    <Button
+        android:id="@+id/todaysHoroscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect"
+        android:drawableTop="@drawable/ic_idea"
+        android:text="@string/todaysHoroscope"
+        android:textColor="@android:color/background_light" />
+
+
+    <Button
+        android:id="@+id/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/todaysHoroscope"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/ripple_effect"
+        android:drawableTop="@drawable/ic_birthday_cake"
+        android:text="@string/birthdayHorscope"
+        android:textColor="@android:color/background_light" />
+
+
+
+    <Button
+        android:id="@+id/zod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birthday"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/ripple_effect"
+        android:drawableTop="@drawable/ic_libra_1"
+        android:text="@string/zodiacsigns"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="@string/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/ripple_effect_exit"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
+
+
+
+
